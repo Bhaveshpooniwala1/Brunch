@@ -1,0 +1,33 @@
+@media screen and (max-width:767px){
+	.container{
+		width:96%;
+	}
+	#one{
+		margin: 100px 0px 100px;
+		padding: 30px 30px 50px 30px;
+	}
+	#one h1 {
+    font-size: 36px;
+    }
+    section .col-xl-3 {
+    	width:87%;
+    }
+    .card-body p {
+    font-size: 13px;
+    } 
+    .card-title {
+    	font-size:14px;
+    }
+    .card-subtitle {
+    font-size: 10px;
+    }
+    .card-body a {
+    	font-size: 13px;
+    }
+    .alignment {
+    text-align: center;
+    }
+    footer p {
+    font-size: 12px;
+    }
+}

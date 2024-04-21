@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'RalewayBold';
+    src: url('../fonts/ralewaybold/Raleway-Bold.woff2') format('woff2'),
+        url('../fonts/ralewaybold/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CookieReg';
+    src: url('../fonts/cookieregular/Cookie-Regular.woff2') format('woff2'),
+        url('../fonts/cookieregular/Cookie-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'RalewaySemi';
+    src: url('../fonts/ralewaysemibold/Raleway-SemiBold.woff2') format('woff2'),
+        url('../fonts/ralewaysemibold/Raleway-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'RalewayBold';
+}
+body{
+	background-color: #2a3b40;
+}
+header{
+	background-image:url(../images/bg1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover ;
+	padding-bottom:100px;
+}
+#one{
+	
+	background-image:url(../images/img1.png);
+	text-align: center;
+	margin:100px 400px 100px;
+	padding:30px 30px 100px 30px;
+
+}
+#one h2{
+	font-size:35px;
+	color:#2c3a42;
+}
+#one h1{
+	font-size:55px;
+	font-family: 'RalewaySemi';
+	color:#ad6c12;
+}
+#one a{
+font-family: 'RalewaySemi';	
+}
+#three{
+	line-height: 35px;
+}
+section{
+	background-image:url(../images/bg2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover ;
+	padding-bottom:120px;
+}
+#six{
+	background-image:url(../images/img10.png);
+	text-align:center;
+
+
+}
+section .col-xl-3{
+	width:24%;
+}
+#five{
+	background-image:url(../images/img11.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	/* background-size:cover ; */
+
+}
+.content{
+	background-image: url(../images/bg3.png);
+}
+.menu{
+	background-image:url(../images/bg4.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover ;
+}
+#apple{
+	background-image:url(../images/img12.png);
+}
+#kiwi img{
+	width:20%;
+	display:inline-block;
+
+}
+.inner{
+	width:60%;
+	display:inline-block;
+	vertical-align: middle;
+}
+.background img{
+	max-width: 1440px;
+}
+input,button,#pear{
+	background:transparent;
+	padding-left:5px;
+}
+input::placeholder{
+	color:#fff;
+}
+.aside{
+	background-color:#d4d8d9;
+}
+.card-body p{
+   font-size:20px;
+}
+.card-subtitle{
+  font-size:13px;
+}
+.card-body a{
+	position:relative;
+}
+.card-body a::after{
+	position:absolute;
+	content:"";
+	width:0;
+	height:4px;
+	background-color:#ff992b;
+	left:15px;
+	bottom:0px;
+
+	transition:0.4s;
+}
+.card-body a:hover::after{
+	width:45%;
+}
+footer{
+	background-color: #d4d8d9;
+}
+footer p{
+	font-size:14px;
+}
+.alignment{
+	text-align: left;
+}
